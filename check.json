@@ -1,0 +1,35 @@
+{
+  "command": [
+    "node",
+    "app.mjs"
+  ],
+  "expected": {
+    "points": [
+      {
+        "position": 0,
+        "gainA": 1,
+        "gainB": 0
+      },
+      {
+        "position": 0.25,
+        "gainA": 0.92388,
+        "gainB": 0.382683
+      },
+      {
+        "position": 0.5,
+        "gainA": 0.707107,
+        "gainB": 0.707107
+      },
+      {
+        "position": 0.75,
+        "gainA": 0.382683,
+        "gainB": 0.92388
+      },
+      {
+        "position": 1,
+        "gainA": 0,
+        "gainB": 1
+      }
+    ]
+  }
+}
